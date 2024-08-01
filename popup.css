@@ -1,0 +1,38 @@
+#popup {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+#popup p {
+  margin-bottom: 5px;
+}
+
+#popup button {
+  background-color: #4CAF50; /* Set button background color */
+  color: white; /* Set button text color */
+  padding: 10px 20px; /* Increased padding for better visibility */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Indicate clickable behavior */
+  font-weight: bold; /* Make text bolder for emphasis */
+  text-transform: uppercase; /* Convert text to uppercase for a stronger presence */
+}
+
+#popup button:hover {
+  background-color: #3e8e41; /* Change button background on hover (darker shade) */
+}
+
+#closeButton { /* Optional styling for the close button */
+  background-color: #FF0000; /* Red for a clear "danger" connotation */
+}
+
+#closeButton:hover {
+  background-color: #DD0000; /* Darker red on hover */
+}
